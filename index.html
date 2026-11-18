@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bella Bites | Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">
+      <span class="brand-mark">♨</span>
+      <span><strong>Bella Bites</strong><small>RESTAURANT</small></span>
+    </a>
+
+    <nav class="main-nav" aria-label="القائمة الرئيسية">
+      <a href="#home">الرئيسية</a>
+      <a class="active" href="#menu">المنيو</a>
+      <a href="#about">عن المطعم</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+
+    <a class="cart-link" href="#cart" aria-label="سلة المشتريات">
+      <span class="cart-icon">🛒</span><span class="cart-count">2</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow">طازة • لذيذة • معمولة بحب</span>
+        <h1>أكل لذيذ.. تجربة أحلى!</h1>
+        <p>اختار وجبتك المفضلة واستمتع بأحلى طعم.</p>
+        <a class="primary-btn" href="#menu">تصفح المنيو <span>←</span></a>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow dark-eyebrow">اختار اللي بتحبه</span>
+          <h2>منيو <em>Bella Bites</em></h2>
+        </div>
+        <div class="search-box">
+          <span>⌕</span>
+          <input type="search" placeholder="ابحث عن وجبتك..." aria-label="ابحث عن وجبتك">
+        </div>
+      </div>
+
+      <div class="category-list">
+        <a class="category active" href="#menu">✦ كل الأصناف</a>
+        <a class="category" href="#burgers">🍔 برجر</a>
+        <a class="category" href="#pizza">🍕 بيتزا</a>
+        <a class="category" href="#pasta">🍝 مكرونة</a>
+        <a class="category" href="#sides">🍟 مقبلات</a>
+        <a class="category" href="#drinks">🥤 مشروبات</a>
+        <a class="category" href="#desserts">🍰 حلويات</a>
+      </div>
+
+      <div class="content-layout">
+        <div class="products-area">
+          <section class="food-group" id="burgers">
+            <div class="group-title"><h3>🍔 البرجر</h3><span>اختيارات شهية</span></div>
+            <div class="product-grid">
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=85" alt="برجر كلاسيك">
+                <div class="product-info"><h4>برجر كلاسيك</h4><p>قطعة لحم مشوية مع الجبن والخضار</p><div class="product-bottom"><strong>120 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="image/double.png" alt="دبل برجر">
+                <div class="product-info"><h4>دبل برجر</h4><p>قطعتان لحم مع جبنة شيدر</p><div class="product-bottom"><strong>160 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=700&q=85" alt="تشيكن برجر">
+                <div class="product-info"><h4>تشيكن برجر</h4><p>دجاج مقرمش وصوص مميز</p><div class="product-bottom"><strong>110 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="food-group" id="pizza">
+            <div class="group-title"><h3>🍕 البيتزا</h3><span>مخبوزة طازة</span></div>
+            <div class="product-grid">
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=700&q=85" alt="بيتزا مارجريتا">
+                <div class="product-info"><h4>بيتزا مارجريتا</h4><p>موزاريلا وصلصة طماطم وريحان</p><div class="product-bottom"><strong>160 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=700&q=85" alt="بيتزا بيبروني">
+                <div class="product-info"><h4>بيتزا بيبروني</h4><p>جبنة ومشروم وشرائح بيبروني</p><div class="product-bottom"><strong>180 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=85" alt="بيتزا تشيكن">
+                <div class="product-info"><h4>بيتزا تشيكن</h4><p>دجاج متبل وجبنة موتزاريلا</p><div class="product-bottom"><strong>175 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="food-group" id="pasta">
+            <div class="group-title"><h3>🍝 المكرونة</h3><span>صوصات غنية</span></div>
+            <div class="product-grid">
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=85" alt="فيتوتشيني ألفريدو">
+                <div class="product-info"><h4>فيتوتشيني ألفريدو</h4><p>صوص كريمي بالدجاج والبارميزان</p><div class="product-bottom"><strong>110 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=700&q=85" alt="باستا بولونيز">
+                <div class="product-info"><h4>باستا بولونيز</h4><p>مكرونة بصوص الطماطم واللحم</p><div class="product-bottom"><strong>100 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=700&q=85" alt="بيني أرابياتا">
+                <div class="product-info"><h4>بيني أرابياتا</h4><p>صوص طماطم إيطالي بلمسة حارة</p><div class="product-bottom"><strong>95 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="food-group" id="sides">
+            <div class="group-title"><h3>🍟 المقبلات</h3><span>كمل وجبتك</span></div>
+            <div class="product-grid">
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=85" alt="بطاطس مقلية">
+                <div class="product-info"><h4>بطاطس مقلية</h4><p>بطاطس ذهبية ومقرمشة</p><div class="product-bottom"><strong>50 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1548340748-6d2b7d7da280?auto=format&fit=crop&w=700&q=85" alt="موزاريلا ستيكس">
+                <div class="product-info"><h4>موزاريلا ستيكس</h4><p>أصابع جبنة مقرمشة</p><div class="product-bottom"><strong>75 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=700&q=85" alt="تشيكن ناجتس">
+                <div class="product-info"><h4>تشيكن ناجتس</h4><p>قطع دجاج مقرمشة</p><div class="product-bottom"><strong>80 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="food-group" id="drinks">
+            <div class="group-title"><h3>🥤 المشروبات</h3><span>انتعاش مع كل وجبة</span></div>
+            <div class="product-grid">
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=700&q=85" alt="عصير برتقال">
+                <div class="product-info"><h4>عصير برتقال</h4><p>عصير فريش طبيعي</p><div class="product-bottom"><strong>35 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="image/lemon.png" alt="ليمون بالنعناع">
+                <div class="product-info"><h4>ليمون بالنعناع</h4><p>ليمون منعش ونعناع طازة</p><div class="product-bottom"><strong>40 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=700&q=85" alt="مشروب غازي">
+                <div class="product-info"><h4>كولا</h4><p>مشروب غازي مثلج</p><div class="product-bottom"><strong>25 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="food-group" id="desserts">
+            <div class="group-title"><h3>🍰 الحلويات</h3><span>أحلى ختام</span></div>
+            <div class="product-grid">
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=85" alt="كيكة شوكولاتة">
+                <div class="product-info"><h4>كيكة شوكولاتة</h4><p>كيكة غنية بصوص الشوكولاتة</p><div class="product-bottom"><strong>70 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=700&q=85" alt="تشيز كيك">
+                <div class="product-info"><h4>تشيز كيك</h4><p>تشيز كيك كريمي بطبقة فاكهة</p><div class="product-bottom"><strong>85 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=85" alt="براونيز">
+                <div class="product-info"><h4>براونيز</h4><p>براونيز شوكولاتة طري</p><div class="product-bottom"><strong>65 <small>ج.م</small></strong><button type="button">+ أضف للسلة</button></div></div>
+              </article>
+            </div>
+          </section>
+        </div>
+
+        <aside class="cart-panel" id="cart">
+          <div class="cart-heading"><h3>سلة المشتريات</h3><span>🛒</span></div>
+          <div class="cart-item">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=180&q=80" alt="">
+            <div class="cart-item-details"><h4>بيتزا مارجريتا</h4><strong>160 ج.م</strong><div class="quantity"><button type="button">−</button><span>1</span><button type="button">+</button></div></div>
+            <button class="remove" type="button" aria-label="حذف">×</button>
+          </div>
+          <div class="cart-item">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=180&q=80" alt="">
+            <div class="cart-item-details"><h4>برجر كلاسيك</h4><strong>120 ج.م</strong><div class="quantity"><button type="button">−</button><span>1</span><button type="button">+</button></div></div>
+            <button class="remove" type="button" aria-label="حذف">×</button>
+          </div>
+          <div class="cart-summary">
+            <div><span>المجموع الفرعي:</span><strong>280 ج.م</strong></div>
+            <div><span>رسوم التوصيل:</span><strong>20 ج.م</strong></div>
+            <div class="total"><span>الإجمالي:</span><strong>300 ج.م</strong></div>
+          </div>
+          <a class="checkout-btn" href="#contact">تأكيد الطلب <span>✓</span></a>
+          <p class="cart-note">* الطلب تجريبي لأغراض المشروع.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="about-strip" id="about">
+      <span class="about-icon">♡</span>
+      <div><h2>طعم تحبه من أول لقمة</h2><p>في Bella Bites بنهتم بالتفاصيل علشان كل وجبة تكون تجربة مميزة.</p></div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <a class="brand footer-brand" href="#"><span><strong>Bella Bites</strong><small>RESTAURANT</small></span></a>
+    <p>© 2026 Bella Bites. جميع الحقوق محفوظة.</p>
+    <div class="socials"><a href="#contact">f</a><a href="#contact">◎</a><a href="#contact">▶</a></div>
+  </footer>
+  <script src="java/script.js"></script>
+</body>
+</html>
